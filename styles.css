@@ -1,0 +1,202 @@
+*margin{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    font-size: 16px;
+    background: hsl(30, 54%, 90%);
+    min-width: 375px;
+    max-width: 1440px;
+}
+.container{
+    width: 600px;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+    background: hsl(0, 0%, 100%);
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 8px;
+}
+.container img{
+    width: 550px;
+    height: 250px;
+    margin-top: 20px;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+}
+.omelette-recipe h1{
+    font-family: "Young Serif", serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 20px;
+    margin-bottom: 0;
+    font-size: 40px; 
+}
+.omelette-recipe p{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    color: hsl(24, 5%, 18%);
+}
+.prep-time{
+    border: 1px solid hsl(30, 54%, 90%);
+    border-radius: 8px;
+    background: hsl(30, 54%, 90%);
+    border-color: hsl(30, 54%, 90%);
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 150px;
+    width: 550px;
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+}
+.prep-time h2{
+    margin-left: 20px;
+    color: hsl(332, 51%, 32%);
+    margin-bottom: 10%;
+    
+}
+.prep-time ul{
+    margin-top: 50px;
+    margin-left: 0;
+    position: absolute;
+    color: hsl(24, 5%, 18%);
+    
+}
+.prep-time li:first-child{
+    margin-left: 0;
+    text-align: start;
+}
+.prep-time li:nth-child(2){
+    margin-left: 0;
+    text-align: start;
+}
+.prep-time li:last-child{
+    margin-left: 0;
+    text-align: start;
+}
+.ingredients h1{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 20px;
+    color: hsl(14, 45%, 36%);
+}
+
+.ingredients ul{
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+    left: 20px;
+    color: hsl(24, 5%, 18%);
+    display: grid;
+    justify-content: start;
+}
+.ingredients li:first-child{
+    margin-left: 0;
+    text-align: start;
+}
+.ingredients li:nth-child(2){
+    margin-left: 0;
+    text-align: start;
+}
+.ingredients li:nth-child(3){
+    margin-left: 0;
+    text-align: start;
+}
+.ingredients li:nth-child(4){
+    margin-left: 0;
+    text-align: start;
+}
+
+.instructions h1{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 20px;
+    color: hsl(14, 45%, 36%);  
+}
+.instructions ol{
+    margin-top: 50px;
+    margin-left: 20px;
+    color: (30, 18%, 87%)  
+}
+.instructions li:first-child{
+    margin-left: 0;
+    margin-bottom: 10px;
+    text-align: start;
+}
+.instructions li:nth-child(2){
+    margin-left: 0;
+    margin-bottom: 10px;
+    text-align: start;
+}
+.instructions li:nth-child(3){
+    margin-left: 0;
+    margin-bottom: 10px;
+    text-align: start;
+}
+.instructions li:nth-child(4){
+    margin-left: 0;
+    margin-bottom: 10px;
+    text-align: start;
+}
+.instructions li:nth-child(5){
+    margin-left: 0;
+    margin-bottom: 10px;
+    text-align: start;
+}
+.instructions li:last-child{
+    margin-left: 0;
+    margin-bottom: 10px;
+    text-align: start;
+}
+.nutrition h1{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 20px;
+    color: hsl(14, 45%, 36%);
+}
+.nutrition p{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 20px;
+    color: hsl(24, 5%, 18%);
+}
+.nutrition table{
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    
+   
+}
+td:last-child{
+    font-weight: bold;
+    color: hsl(14, 45%, 36%);
+}
+td{
+    margin: 20px;
+}
+hr{
+    width: 550px;
+    color: hsl(30, 18%, 87%)
+}
+
+@media screen and (min-width: 375px) {
+    body{
+        font-size: 16px;
+        background: hsl(30, 54%, 90%);
+        min-width: 375px;
+    }
+}
+@media screen and (max-width: 1440px){
+    body{
+        font-size: 16px;
+        background: hsl(30, 54%, 90%);
+        max-width: 1440px;
+    }
+}
